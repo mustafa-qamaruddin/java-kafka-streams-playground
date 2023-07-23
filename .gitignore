@@ -1,0 +1,40 @@
+# Compiled class files
+/build/
+/out/
+
+# Gradle-specific files
+.gradle/
+build/
+
+# IntelliJ-specific files
+*.iml
+.idea/
+*.ipr
+*.iws
+out/
+
+# Maven-specific files
+target/
+
+# Operating System-specific files
+*.DS_Store
+Thumbs.db
+
+# Logs
+log/
+
+# Other temporary files
+*.log
+*.tmp
+
+# Gradle wrapper jar files
+gradle-wrapper.jar
+
+# Eclipse-specific files
+.classpath
+.project
+.settings/
+bin/
+
+# macOS specific files
+.DS_Store
