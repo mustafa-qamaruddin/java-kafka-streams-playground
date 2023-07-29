@@ -24,7 +24,7 @@ public class ProducerApp {
     properties.setProperty(ProducerConfig.PARTITIONER_CLASS_CONFIG, RoundRobinPartitioner.class.getName());
     KafkaProducer<Integer, Double> kafkaProducer = new KafkaProducer<>(properties);
     Random random = new Random(101);
-    for (int i = 0; i < 1000; i++) {
+    for (int i = 0; i < 3000; i++) {
       ProducerRecord<Integer, Double> producerRecord = new ProducerRecord<>(
         KAFKA_TOPIC,
         random.nextInt(11),
