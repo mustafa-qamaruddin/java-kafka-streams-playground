@@ -20,7 +20,7 @@ Follow these steps to unleash the power of the **Kafka Stream Consumer**:
 1. Git-groove into action by cloning this repo:
 
 ```bash
-git clone https://github.com/your-username/kafka-stream-consumer.git
+git clone https://github.com/mustafa-qamaruddin/java-kafka-streams-playground.git
 ```
 
 2. Get into the rhythm with your favorite Java IDE.
