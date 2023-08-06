@@ -17,6 +17,7 @@ dependencies {
     implementation("ch.qos.logback:logback-classic:1.4.8")
     compileOnly("org.projectlombok:lombok:1.18.28")
     annotationProcessor("org.projectlombok:lombok:1.18.28")
+    testImplementation("org.apache.kafka:kafka-streams-test-utils:3.5.1")
 }
 
 tasks.test {
