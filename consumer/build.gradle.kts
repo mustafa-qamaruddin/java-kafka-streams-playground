@@ -17,6 +17,7 @@ dependencies {
     compileOnly("org.projectlombok:lombok:1.18.28")
     annotationProcessor("org.projectlombok:lombok:1.18.28")
     implementation("org.apache.kafka:kafka-streams:3.5.1")
+    testImplementation("org.apache.kafka:kafka-streams-test-utils:3.5.1")
 }
 
 tasks.test {
